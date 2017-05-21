@@ -73,3 +73,7 @@ body {
     border-bottom-left-radius: 10px;
     opacity: 0.8;
 }
+
+.text-align-right {
+    float: right;
+}
