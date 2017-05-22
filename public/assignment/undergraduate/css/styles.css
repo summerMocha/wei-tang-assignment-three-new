@@ -74,6 +74,30 @@ body {
     opacity: 0.8;
 }
 
-.text-align-right {
+.float-right {
     float: right;
+}
+
+.nav-bar-plus {
+    padding: 15px 15px 15px 0px;
+}
+
+.span-plus {
+    color: white;
+}
+
+li.boarder-none {
+    border: none;
+}
+
+.website-new-column {
+    height:500px;
+}
+
+.website-new-border {
+    border-right: 1px solid #ddd;
+}
+
+a:hover {
+    text-decoration: none;
 }

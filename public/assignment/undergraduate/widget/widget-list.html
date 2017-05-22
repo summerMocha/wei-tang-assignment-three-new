@@ -10,10 +10,18 @@
 
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-                Widget List
-            </a>
+        <div class="row">
+            <div class="col-xs-9">
+                <a class="navbar-brand" href="../page/page-list.html">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span>Widget List</span>
+                </a>
+            </div>
+            <div class="col-xs-1 float-right">
+                <a class="navbar-brand" href="widget-choose.html">
+                    <span class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>
+                </a>
+            </div>
         </div>
     </div>
 </nav>
@@ -21,7 +29,9 @@
 <div class="container-fluid">
     <div class="wd-widget">
         <div class="wd-toolbar">
-            <span class="glyphicon glyphicon-cog"></span>
+            <a href="widget-heading.html">
+                <span class="glyphicon glyphicon-cog"></span>
+            </a>
             <span class="glyphicon glyphicon-align-justify"></span>
         </div>
         <h1>GIZMODO</h1>
@@ -54,7 +64,9 @@
     </div>
     <div class="wd-widget">
         <div class="wd-toolbar">
-            <span class="glyphicon glyphicon-cog"></span>
+            <a href="widget-youtube.html">
+                <span class="glyphicon glyphicon-cog"></span>
+            </a>
             <span class="glyphicon glyphicon-align-justify"></span>
         </div>
         <iframe width="100%" src="https://www.youtube.com/embed/Aaq3Ah4oNAE" frameborder="0" allowfullscreen></iframe>
@@ -63,12 +75,10 @@
 </div>
 
 <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-                Footer
-            </a>
-        </div>
+    <div class="container-fluid float-right">
+        <a class="navbar-brand" href="../user/profile.html">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        </a>
     </div>
 </nav>
 </body>
